@@ -14,7 +14,15 @@ speakjs is a library that allows you to interact with a browser client in an eas
 <h2>convert text to speech</h2>
 <p>the process to convert text to speech is very simple as it already works and you only need to receive the text to be read.</p>
 <h3>Example:</h3>
-<code>
-  var sjs = new speeks('en');<br>
-  sjs.textToVoice('hello word');
-</code>
+<div class="code">
+  <code>
+    var sjs = new speeks('en');
+    sjs.textToVoice('hello word');
+  </code>
+</div>
+<style>
+  .code{
+    background-color: #f3f4f4;
+    width:80%;
+  }
+</style>
