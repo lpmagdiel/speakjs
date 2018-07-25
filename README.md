@@ -57,7 +57,6 @@ speakjs is a library that allows you to interact with a browser client in an eas
     alert("Hi, how are you?");
   });
   
-  
   sjs.listen();
 </code>
 </pre>
