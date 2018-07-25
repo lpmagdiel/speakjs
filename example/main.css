@@ -1,0 +1,19 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#inputText,#btn-speak{
+	text-align: center;
+	font-size: 1.2em;
+	min-height: 40px;
+	border: 2px solid #333399;
+	border-radius: 20px;
+	outline: none;
+	margin: 5px;
+}
+#btn-speak{
+	background-color: #333399;
+	color: #66CCCC;
+	padding-left: 10px;
+	padding-right: 10px;
+}
