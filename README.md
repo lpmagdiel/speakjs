@@ -17,6 +17,9 @@ speakjs is a library that allows you to interact with a browser client in an eas
 <div style="background-color: #f3f4f4;min-width:50%;">
   <code>
     var sjs = new speeks('en');
+  </code>
+  <code>
     sjs.textToVoice('hello word');
   </code>
+  
 </div>
