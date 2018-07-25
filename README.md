@@ -1,7 +1,7 @@
 # speakjs version 1.0
 speakjs is a library that allows you to interact with a browser client in an easy and efficient way.
 <h2>initialize the app</h2>
-<code>var mySpeekjs = new speeks('en')</code><br>
+<code>var mySpeekjs = new speakjs('en')</code><br>
 <p>When we initialize our speeks object it receives a single parameter, the ISO code of the language to be used.</p>
 <p>if you don't know what code to use for your language you can see <a href="https://www.w3schools.com/tags/ref_language_codes.asp">this link</a></p>
 <h2>function list</h2>
@@ -16,7 +16,7 @@ speakjs is a library that allows you to interact with a browser client in an eas
 <h3>Example:</h3>
 <pre>
 <code>
-  var sjs = new speeks('en');
+  var sjs = new speakjs('en');
   sjs.textToVoice('hello word');
 </code>
 </pre>
@@ -26,7 +26,7 @@ speakjs is a library that allows you to interact with a browser client in an eas
 <h3>Example:</h3>
 <pre>
 <code>
-  var sjs = new speeks('en');
+  var sjs = new speakjs('en');
   sjs.voiceToText(function(txt){
     console.log("you said: " + txt);
   });
@@ -40,7 +40,7 @@ speakjs is a library that allows you to interact with a browser client in an eas
 <h3>Example:</h3>
 <pre>
 <code>
-  var sjs = new speeks('en');
+  var sjs = new speakjs('en');
   sjs.command("hello",function(){
     alert("Hi, how are you?");
   });
@@ -52,7 +52,7 @@ speakjs is a library that allows you to interact with a browser client in an eas
 <h3>Example:</h3>
 <pre>
 <code>
-  var sjs = new speeks('en');
+  var sjs = new speakjs('en');
   sjs.command("hello",function(){
     alert("Hi, how are you?");
   });
