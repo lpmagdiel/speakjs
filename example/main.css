@@ -2,7 +2,10 @@
 	padding: 0px;
 	margin: 0px;
 }
-#inputText,#btn-speak{
+body{
+	text-align: center;
+}
+#inputText,#btn-speak,#btn-speak2,#textCommand,#btn-add,select,#listen{
 	text-align: center;
 	font-size: 1.2em;
 	min-height: 40px;
@@ -11,9 +14,24 @@
 	outline: none;
 	margin: 5px;
 }
-#btn-speak{
+#btn-speak,#btn-speak2,#btn-add,#listen{
 	background-color: #333399;
 	color: #66CCCC;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+.mod{
+	display: inline-block;
+	width: 400px;
+	min-height: 160px;
+	padding: 20px;
+	padding-top: 40px;
+	background-color: #f0f0f0;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+}
+.mod > h1{
+	margin-bottom: : 20px;
+	color: #666666;
 }

@@ -5,8 +5,36 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-<input type="text" id="inputText" placeholder="your text">
-<button id="btn-speak">speak</button>
+	<div class="mod">
+		<h1>textToVoice test</h1>
+		<input type="text" id="inputText" placeholder="your text">
+		<button id="btn-speak">speak</button>
+	</div>
+	<br>
+	<div class="mod">
+		<h1>VoiceToText test</h1>
+		<button id="btn-speak2">speak</button><br>
+		<label id="ltext">Here's what you said.</label>
+	</div>
+	<br>
+	<div class="mod">
+		<h1>command test</h1>
+		<input type="text" id="textCommand" placeholder="word">
+		<select id="sel">
+			<option value="1" selected="true">display alert</option>
+			<option value="2">change background color</option>
+			<option value="3">tell me something</option>
+			<option value="4">open facebook</option>
+		</select>
+		<br>
+		<button id="btn-add">add</button><br>
+	</div>
+	<br>
+	<div class="mod">
+		<h1>listen test</h1>
+		<button id="listen">listen</button><br>
+		<label>the entered commands will be executed</label>
+	</div>
 
 <script type="text/javascript" src="../lib/speak.min.js"></script>
 <script type="text/javascript" src="index.js"></script>
